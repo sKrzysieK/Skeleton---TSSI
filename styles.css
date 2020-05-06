@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#main{
+    flex: 1 0 auto;
+}
+header{
+    background-color:#73726e;
+    color: #ffffff;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+#main{
+    padding-bottom: 4vw;
+}
+label{
+    padding-right: 1vw;
+}
+
+footer{
+    background-color: #73726e;
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+footer p{
+    padding: 0;
+    margin: 0;
+}
+
+.contact{
+    float: left;
+    padding: 3vw;
+    width:50%;
+}
+
+.social{
+    float: right;
+    padding: 2.5vw;
+    
+}
+
+.facebook-icon {
+    color: white;
+    font-size: 48px;
+    margin: 0 33%;
+}
+
+.facebook-icon:hover {
+    color: #3b5998;
+}
+
+
+
+
+
+
+
