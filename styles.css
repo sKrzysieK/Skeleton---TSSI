@@ -15,10 +15,12 @@ header{
     background-color:#73726e;
     color: #ffffff;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 form{
     text-align: center;
+    font-size: 10px;
 }
 
 #main{
@@ -34,11 +36,13 @@ footer{
     display: inline-block;
     width: 100%;
     flex-shrink: 0;
+    font-size: 55%;
 }
 
 footer p{
     padding: 0;
     margin: 0;
+    
 }
 
 .contact{
@@ -53,9 +57,24 @@ footer p{
     
 }
 
+#fb{
+    height: 50px;
+    width: 50px;
+    background: url('css_sprites.png') 0 0;
+    
+}
+
+#fb:hover{
+    height: 50px;
+    width: 50px;
+    background: url('css_sprites.png') -50px -0;
+}
+
+
+/*
 .facebook-icon {
     color: white;
-    font-size: 48px;
+    font-size: 35px;
     margin: 0 33%;
 }
 
@@ -63,7 +82,7 @@ footer p{
     color: #3b5998;
 }
 
-
+*/
 
 
 
